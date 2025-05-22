@@ -121,6 +121,11 @@ p {
     appearance: none;
 }
 
+input::-webkit-contacts-auto-fill-button {
+    visibility: none;
+    display: none;
+}
+
 .img-error {
     width: 24px;
     width: 24px;
@@ -186,11 +191,15 @@ a {
 
 .attribution {
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
     text-align: center;
+}
+
+.attribution a {
+    color: white;
 }
 
 @media (max-width: 800px) {
@@ -242,5 +251,6 @@ a {
     }
     .attribution {
         bottom: 0;
+        font-size: 12px;
     }
 }
