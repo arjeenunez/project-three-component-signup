@@ -14,11 +14,6 @@ body {
     height: 100dvh;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    background-color: var(--color-red);
-    background-image: url('../assets/bg-intro-desktop.png');
-    background-repeat: repeat-y;
-    background-position: center;
-    background-size: cover;
 }
 
 main {
@@ -28,6 +23,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: var(--color-red);
+    background-image: url('../assets/bg-intro-desktop.png');
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
 }
 
 .card-splash {
@@ -196,6 +196,7 @@ a {
     transform: translateX(-50%);
     width: 100%;
     text-align: center;
+    color: black;
 }
 
 .attribution a {
@@ -250,7 +251,7 @@ a {
         height: 56px;
     }
     .attribution {
-        bottom: 0;
+        bottom: 3px;
         font-size: 12px;
     }
 }
